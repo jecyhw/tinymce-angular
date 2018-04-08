@@ -87,7 +87,11 @@ export class EditorComponent extends Events implements AfterViewInit, ControlVal
   }
 
   ngOnDestroy() {
-    getTinymce().remove(this.editor);
+
+    const tinymce = getTinymce();
+    if (tinymce) {
+      tinymce.remove(this.editor);
+    }
   }
 
   createElement() {
