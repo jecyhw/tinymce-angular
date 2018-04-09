@@ -1,9 +1,9 @@
 {
   "name": "@tinymce/tinymce-angular",
-  "description": "Official TinyMCE Angular Component",
+  "description": "Forked From Official TinyMCE Angular Component",
   "version": "1.0.7",
-  "repository": "https://github.com/tinymce/tinymce-angular.git",
-  "author": "Ephox Inc",
+  "repository": "https://github.com/jecyhw/tinymce-angular.git",
+  "author": "jecyhw",
   "license": "Apache-2.0",
   "private": false,
   "dependencies": {
